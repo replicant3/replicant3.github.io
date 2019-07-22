@@ -5,16 +5,10 @@ image_thumbs_loc: "/images/thumbs"
 
 # UI configs
 title: "The Archailect Portfolio"
-subtitle: "test"
 author: "The Archailect"
-header:
- title: "3D concept art and hardsurface modeling"
- subtitle: "by The Archailect"
-footer:
- name: ""
- bio: ""
- github: ""
-web_design: ""
+
+title: "3D concept art and hardsurface modeling"
+subtitle: "by The Archailect"
 social_urls:
   twitter: "https://www.twitter.com/thearchailect"
   instagram: "https://www.instagram.com/thearchailect"
