@@ -2,7 +2,6 @@
 baseurl: "http://thearchailect.me/"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: ""
 
 # UI configs
 title: "The Archailect Portfolio"
