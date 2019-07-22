@@ -48,7 +48,14 @@ layout: default
                                 </a>
                             </li>
                         {% endif %}
-                            {% if site.social_urls.youtube %}
+                        {% if site.social_urls.twitter %}
+                        <li>
+                            <a href="{{ site.social_urls.artstation }}" class="icon fa-artstation">
+                                <span class="label">Artstation</span>
+                            </a>
+                        </li>
+                         {% endif %}
+                        {% if site.social_urls.youtube %}
                             <li>
                                 <a href="{{ site.social_urls.youtube }}" class="icon fa-youtube">
                                     <span class="label">Youtube</span>
@@ -64,7 +71,7 @@ layout: default
                         {% endif %}
                     </ul>
                 </section>
-                <section>Software used for renders: Blender 2.8, HardOps, BoxCutter & Meshmachine</section>
+                <section>Software used: Blender 2.8, HardOps, BoxCutter & Meshmachine</section>
                 <p class="copyright">
                     &copy; {{ site.author }}.
                 </p>
