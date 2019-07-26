@@ -9,9 +9,8 @@ layout: default
     <header id="header">
         <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
         <nav>
-                            
             <ul>
-                <li><a href="#footer" class="icon fa-info-circle">About</a><ul class="icons">
+                <li><a href="#footer" class="icon fa-info-circle">About <ul class="icons">
                         {% if site.social_urls.twitter %}
                             <li>
                                 <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
@@ -34,8 +33,7 @@ layout: default
                                 </a>
                             </li>
                         {% endif %}
-                    </ul></li>
-               
+                    </ul></a></li>
             </ul>
         </nav>
     </header>
@@ -63,7 +61,33 @@ layout: default
                     <h2>{{ site.footer.name }}</h2>
                     <p>{{ site.footer.bio }}</p>
                 </section>
-
+                <section>
+                    <h2>Contact me at ...</h2>
+                    <ul class="icons">
+                        {% if site.social_urls.twitter %}
+                            <li>
+                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
+                                    <span class="label">Twitter</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        
+                        {% if site.social_urls.youtube %}
+                            <li>
+                                <a href="{{ site.social_urls.youtube }}" class="icon fa-youtube">
+                                    <span class="label">Youtube</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.instagram %}
+                            <li>
+                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
+                                    <span class="label">Instagram</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </section>
                 <section>Australian/British 3D artist, currently living in Germany. IT and Games Development student. Concentrating mostly on Hard Surface Modeling and Texturing.</section>
                 <p class="copyright">
                     &copy; {{ site.author }}.
