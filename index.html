@@ -12,32 +12,6 @@ layout: default
             <ul>
                 <li><a href="#footer" class="icon fa-info-circle">About</a></li>
             </ul>
- 
-                    <ul class="icons">
-                        {% if site.social_urls.twitter %}
-                            <li>
-                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
-                                    <span class="label">Twitter</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        
-                        {% if site.social_urls.youtube %}
-                            <li>
-                                <a href="{{ site.social_urls.youtube }}" class="icon fa-youtube">
-                                    <span class="label">Youtube</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.instagram %}
-                            <li>
-                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
-                                    <span class="label">Instagram</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                    </ul>
-               
         </nav>
     </header>
 
@@ -49,8 +23,6 @@ layout: default
             <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
                 <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
-            <!--<h2></h2>
-            <p></p>-->
         </article>
         {% endif %}
         {% endfor %}
@@ -65,7 +37,6 @@ layout: default
                     <p>{{ site.footer.bio }}</p>
                 </section>
                 <section>
-                    <h2>Contact me at ...</h2>
                     <ul class="icons">
                         {% if site.social_urls.twitter %}
                             <li>
@@ -91,7 +62,7 @@ layout: default
                         {% endif %}
                     </ul>
                 </section>
-                <section>Australian/British 3D artist, currently living in Germany. IT and Games Development student. Concentrating mostly on Hard Surface Modeling and Texturing.</section>
+                <section><p>Australian/British 3D artist, currently living in Germany.</p><p> IT and Games Development student. Concentrating mostly on Hard Surface Modeling and Texturing.<p/></section>
                 <p class="copyright">
                     &copy; {{ site.author }}.
                 </p>
