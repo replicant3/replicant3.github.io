@@ -9,7 +9,10 @@ layout: default
     <header id="header">
         <h1><a href="index.html"><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a></h1>
         <nav>
-                            <section>
+                            
+            <ul>
+                <li><a href="#footer" class="icon fa-info-circle">About</a></li>
+                <section>
                     <h2>Contact me at ...</h2>
                     <ul class="icons">
                         {% if site.social_urls.twitter %}
@@ -36,8 +39,6 @@ layout: default
                         {% endif %}
                     </ul>
                 </section>
-            <ul>
-                <li><a href="#footer" class="icon fa-info-circle">About</a></li>
             </ul>
         </nav>
     </header>
