@@ -23,8 +23,6 @@ layout: default
             <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
                 <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
-            <!--<h2></h2>
-            <p></p>-->
         </article>
         {% endif %}
         {% endfor %}
@@ -39,7 +37,6 @@ layout: default
                     <p>{{ site.footer.bio }}</p>
                 </section>
                 <section>
-                    <h2>Contact me at ...</h2>
                     <ul class="icons">
                         {% if site.social_urls.twitter %}
                             <li>
@@ -56,6 +53,7 @@ layout: default
                                 </a>
                             </li>
                         {% endif %}
+                        
                         {% if site.social_urls.instagram %}
                             <li>
                                 <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
@@ -65,12 +63,21 @@ layout: default
                         {% endif %}
                     </ul>
                 </section>
-                <section>Software used: Blender 2.8, HardOps, BoxCutter & Meshmachine</section>
+                
+                <section>
+                    Australian/British 3D artist, currently living in Germany. 
+                </section>
+                
                 <p class="copyright">
                     &copy; {{ site.author }}.
                 </p>
             </div>
-            <div></div>
+            <div>
+                <section>
+                    IT and Games Development student concentrating on Hard Surface Modeling in Blender, Texturing with Substance and concepting game mechanics in Unreal Engine. 
+                    For freelance work & employment inquires please email: replicant4@protonmail.com
+                </section>
+            </div>
         </div>
     </footer>
 </div>
