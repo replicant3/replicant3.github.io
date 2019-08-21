@@ -17,7 +17,6 @@ layout: default
 
     <!-- Main -->
     <div id="main">
-        <iframe width="281.5" height="264" src="https://www.youtube.com/embed/40N5gd7Dmxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
@@ -73,6 +72,12 @@ layout: default
                     Softwares of Interest and study:
                     Blender 2.8, HardOps, Boxcutter, MeshMachine, Moi3D and Unreal Engine using C++   
                 </section>
+
+                <div>
+                    <section>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/40N5gd7Dmxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                </div>
             
                 <p class="copyright">
                     &copy; {{ site.author }}.
